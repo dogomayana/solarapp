@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  name="description" content="The best calculator that output the requirements for solar installation with consideration of standard factors, efficiency, correction factor, and variable power outputs">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Best solar calculator</title>
+</head>
+<body>
+    <nav>
+        <a>AbobTech</a>
+        <a>Solar calculator</a>
+    </nav>
+    
+    <div class="wrapper">
+        <div class="text">
+            <h1>Abob Tech solar calculator.</h1>
+            <p>This solar installation requirements calculator was compiled using standard factors like, 80% efficiency, 1.25 correction factor, 5hrs peak sunlight, 50% DOD, and 0.8 PF for optimal performance and efficiency.</p>
+            <p>The calculator helps you calculate and output the requirements you will need like, solar panel, battery bank size, charge controller, and inverter needed to set up a solar system for your appliances per hour after sunset.</p>
+            <p>It only requires you to input your appliance load (w) and the number of hours(hrs) you'd want to use your solar backup after sunset (when the battery stops charging).</p>
+            <p><span class="bolded">1</span>. How to get the load of the appliance per watt: 
+            Look at the back, top, or power pack of your appliance, record the number with the wattage (W) sign of the appliance you'd want to use, and then sum them up.
+            eg. Laptop 90w, TV 45w, 2 phone chargers 2 x 5w =10w, decoder 40w; 
+            90 + 45 + 10 + 40 = 185w. So the load of my appliances = 185w.
+            </p>
+            <p><span class="bolded">2</span>. How many hours do you want to use the appliances after sunset? e.g 5hrs  </p>
+            <p>Write out the total appliance loads and hrs.</p>
+            <p>Input your values into the solar system requirements calculator and click show requirements.</p>
+        </div>
+
+        <div class="form">
+            <form>
+                <label> Total load of appliance (W)</label>
+                <input type="number" id="watts" placeholder="Total load of appliance"/>
+                <label>Number of hours (Hrs)</label>
+                <input type="number" id="hour" placeholder="No of hrs after sunset"/>
+            </form>
+        </div>
+        <button onclick="myFunction()">Show requirements</button>
+        <h1 id="call"></h1>
+        <p id="sPanel"></p>
+        <p id="demo"></p>
+        <p id="batbank"></p>
+        <p id="chargecontrol"></p>
+        <p id="inverter"></p>
+        <p id="inverterV"></p>
+    </div>
+
+    <footer>
+    <p>Compiled and Developed by AbobTech</p>
+    </footer>
+
+<canvas class="background"></canvas>
+<script src="dist/particles.min.js"></script>
+<script src="js/myScript.js"></script>            
+</body>
+</html>

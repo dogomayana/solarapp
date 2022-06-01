@@ -1,0 +1,6 @@
+#ignore ALL .js files
+*.js
+
+#ignore ALL files in ANY directory named js
+js/myScript.js
+dist
