@@ -22,11 +22,11 @@ body{
 }
 
 nav{
-    background-color: rgb(76, 76, 195);
+    background-color: white;
     display: flex;
-    padding: 30px;
+    padding: 5px 50px;
     font-family: cursive;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 0.5px solid black;
     position: fixed;
     width: 100%;
@@ -36,14 +36,19 @@ nav :nth-child(2){
     font-size: 1.1rem;
     font-weight: 500;
     font-family: cursive;
+    margin: auto 1px;
     
 }
-nav :nth-child(1){
-    font-size: 1.3rem;
-    font-weight: 900;
-    font-family: cursive;
-    text-align: center;
+#logo{
+    height: 100px;
+    width: 250px;
 }
+/* nav :nth-child(1){ */
+    /* font-size: 1.3rem; */
+    /* font-weight: 900; */
+    /* font-family: cursive; */
+    /* text-align: center; */
+/* } */
 
 .logo{
     font-weight: bold;
