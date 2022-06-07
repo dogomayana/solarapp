@@ -4,6 +4,13 @@ document.addEventListener("keydown", function (event){
     }
 })
 
+document.onkeydown = function (e) {
+    // disable F12 key
+    if(e.key == "F12") {
+        e.preventDefault();
+    }
+}
+
     function myFunction(){
 
         const load = parseInt(document.getElementById("watts").value);
