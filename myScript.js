@@ -1,9 +1,9 @@
-window.onload= function(){
-    Particles.init({
-        selector:'.background'
-    });
+document.addEventListener("keydown", function (event){
+    if (event.ctrlKey){
+        event.preventDefault();
+    }
+})
 
-};
     function myFunction(){
 
         const load = parseInt(document.getElementById("watts").value);
@@ -16,8 +16,6 @@ window.onload= function(){
         const inverterW = Math.round(load * 1.25 / 0.8);
         const loadVa = Math.round(load / 0.8);
         const inverterVa = Math.round(loadVa * 1.25 / 0.8);
-        
-    // document.getElementById('demo').innerHTML="You will need"+" "+load+"w"+" "+"solar panel";
     document.getElementById('sPanel').innerHTML="You will need"+" "+solarPanel+"w"+" "+"solar panel";
     document.getElementById('batbank').innerHTML="You will need"+" "+batteryBank+"ah"+" "+"12v"+" "+"battery";
     document.getElementById('chargecontrol').innerHTML="You will need"+" "+chargeController+"amps"+" "+"charge controller";
