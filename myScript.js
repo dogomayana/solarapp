@@ -21,9 +21,7 @@ document.onkeydown = function (e) {
         const batteryBank = Math.round(totalLoad/ 12*2);
         const chargeController = Math.round(solarPanel /12);
         const inverterW = Math.round(load * 1.25 / 0.8);
-        // const loadVa = Math.round(load / 0.8);
-        const inverterVa = Math.round(totalLoad/ 0.8);
-        // const kva = Math.round(inverterVa/1000)
+        const inverterVa = (totalLoad/ 0.8);
         const kv = (inverterVa/1000)
         const ka = kv.toFixed(1)
 
@@ -34,6 +32,7 @@ document.onkeydown = function (e) {
     // document.getElementById('inverterV').innerHTML="You will need"+" "+kva+"KVA"+" "+"Inverter";
     document.getElementById('inverterVb').innerHTML="You will need"+" "+ka+"KVA"+" "+"Inverter";
     document.getElementById('call').innerHTML="Requirements";
-    document.getElementById('inquire').innerHTML="For more enquiry on specific products to buy, pls chat 08106264634 on whatsapp.";
+    document.getElementById('note').innerHTML="Pls note, if you added a refrigerator and a pressing iron as appliances to be use with the solar, you will need x2 of the above inverter(Kva) size due to surge";
+    document.getElementById('inquire').innerHTML="For more enquiries on specific products to buy, pls chat 08106264634 on whatsapp.";
     };
 
