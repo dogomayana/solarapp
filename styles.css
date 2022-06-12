@@ -91,8 +91,16 @@ p, label,input{
 #inquire{
     font-size: 18px;
     font-style: italic;
-    margin-top: 16px;
+    margin-top: 18px;
 }
+#note{
+    /* font-style: italic; */
+    margin-top: 18px;
+    color: red;
+    font-weight: 600;
+
+}
+
 
 .bolded{
     font-weight: bold;
@@ -153,6 +161,12 @@ p, label,input{
     font-size: 16px;
     font-style: italic;
     margin-top: 16px;
+}
+
+#note{
+    font-weight: 600;
+    margin-top: 16px;
+    color: red;
 }
 
 
