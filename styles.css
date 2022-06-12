@@ -85,9 +85,15 @@ button:hover{
 }
 
 p, label,input{
-    line-height: 40px;
+    line-height: 28px;
     font-size: 18px;
 }
+#inquire{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 16px;
+}
+
 .bolded{
     font-weight: bold;
 }
@@ -139,8 +145,14 @@ nav :nth-child(2){
     text-align: center;
 }
 p, label,input{
-    line-height: 40px;
+    line-height: 28px;
     font-size: 16px;
+}
+
+#inquire{
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 16px;
 }
 
 
