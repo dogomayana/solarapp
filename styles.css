@@ -93,7 +93,7 @@ p, label,input{
     font-style: italic;
     margin-top: 18px;
 }
-#note{
+#note, #empty{
     /* font-style: italic; */
     margin-top: 18px;
     color: red;
@@ -163,7 +163,7 @@ p, label,input{
     margin-top: 16px;
 }
 
-#note{
+#note, #empty{
     font-weight: 600;
     margin-top: 16px;
     color: red;
