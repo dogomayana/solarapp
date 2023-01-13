@@ -15,6 +15,10 @@ function autoRefresh() {
 }
 setInterval('autoRefresh()', 720000);
 
+const covertKwhToWh=(kwh)=>{
+    return kwh*1000
+}
+
     function myFunction(){
 
         const load = parseInt(document.getElementById("watts").value);
