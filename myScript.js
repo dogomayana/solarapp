@@ -38,7 +38,6 @@ setInterval('autoRefresh()', 720000);
     document.getElementById('call').innerHTML="Requirements";
     document.getElementById('note').innerHTML="Pls note, if you added a refrigerator and a pressing iron as appliances to be used on the solar system, you will need x2 of the above recommended inverter(Kva) size due to their surge";
     document.getElementById("empty").style.display = "none";
-    document.getElementById('inquire').innerHTML="For more enquiries on specific products to buy, pls chat 08106264634 on whatsapp.";
         }else{
     document.getElementById('empty').innerHTML="The fields are empty!!!";
     };
