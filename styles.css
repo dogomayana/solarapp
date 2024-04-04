@@ -64,6 +64,7 @@ form{
     padding: 10px;
     margin-top: 3px;
     border-radius: 3px;
+    background-color
 }
 
 button{
@@ -106,7 +107,7 @@ p, label,input{
     font-weight: bold;
 }
 input{
-    background-color: #d3d3d3;
+    background-color: #FAFAFA;
     border-radius: 30px;
     border: none;
 }
