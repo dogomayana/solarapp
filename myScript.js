@@ -30,9 +30,9 @@ setInterval('autoRefresh()', 720000);
         const kva = kv.toFixed(1)
 
         if((load && hrs)){
-    document.getElementById('sPanel').innerHTML="You will need "+solarPanel+"watts solar panel";
-    document.getElementById('batbank').innerHTML="You will need "+batteryBank+"ah 12v battery";
-    document.getElementById('chargecontrol').innerHTML="You will need "+chargeController+"amps charge controller";
+    document.getElementById('sPanel').innerHTML="You will need "+solarPanel+"watts solar panel.";
+    document.getElementById('batbank').innerHTML="You will need "+batteryBank+"ah 12v battery.";
+    document.getElementById('chargecontrol').innerHTML="You will need "+chargeController+"amps charge controller (MPPT) is highly recommended";
     document.getElementById('inverter').innerHTML="You will need "+inverterW+"watts Inverter OR";
     document.getElementById('inverterVb').innerHTML="You will need "+kva+"Kva Inverter which is the same as "+inverterVa+"va inverter";
     document.getElementById('call').innerHTML="Requirements";
